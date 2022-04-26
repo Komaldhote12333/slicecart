@@ -1,0 +1,121 @@
+body{
+    width: 100%;
+    background-color: blueviolet;
+    height: 100vh;
+}
+.box {
+    width: 690px;
+    height: 450px;
+    background-color: rgb(235, 231, 238);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: -5px;
+    margin: -6px;
+}
+.clgname{
+    display: flex;
+    text-align: center;
+    padding: -39px;
+    margin: -11px;
+    justify-content: center;
+}
+.allnameimg{
+    margin-top: 30px;
+}
+
+img{
+    position: absolute;
+width: 100px;
+height: 100px;
+left: 14px;
+top: 66px;
+}
+.named{
+    position: absolute;
+    left: 142px;
+    top: 42px;
+    font-size: x-large;
+    margin-top: 24px;
+    display: grid;
+    font-family: ui-monospace;
+}
+
+
+.named p{
+    padding: -4px;
+    margin: 9px;
+    font-size: 22px;
+}
+.named .branch{
+    position: relative;
+    left: -73px;
+}
+.named .dob{
+    position: relative;
+    left: -48px;
+}
+.named .valid{
+    position: relative;
+    left: -24px;
+}
+.named .enroll{
+    position: relative;
+    left: -11px;
+}
+.named .name{
+    position: relative;
+    left: -11px;
+}
+.field{
+    position: absolute;
+    left: 349px;
+    top: 35px;
+    font-size: 26px;
+    margin-top: 35px;
+    display: grid;
+}
+
+
+.nameofline{
+padding: 2px;
+}
+.scaner{
+position: relative;
+top: 189px;
+right: 358px;
+}
+.scaner img{
+position: absolute;
+top: 79px;
+right: 391px;
+width: 302px;
+height: 80px;
+}
+.signature img{
+position: absolute;
+left: 199px;
+top: 95px;
+width: 121px;
+height: 193px;
+}
+.add{
+position: absolute;
+top: 386px;
+FONT-SIZE: x-large;
+width: 687px;
+}
+.profile img{
+position: absolute;
+width: 104px;
+height: 111px;
+left: 26px;
+top: 222px;
+}
+.field.nameofline{
+    position: absolute;
+    padding: -5px;
+    font-size: x-large;
+    margin: 3px;
+}
+

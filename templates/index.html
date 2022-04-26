@@ -1,0 +1,69 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="{% static 'styles.css' %}" rel="stylesheet" />
+</head>
+
+
+<body>
+    {% for i in cards %}
+    <div class="col mb-5">
+        <div class="card h-100">
+         <div class="box">
+
+
+            <div class="clgname">
+                <h1>Swami Vivekanad College of Pharmacy</h1>
+            </div>
+
+            <div class="allnameimg">
+
+                <div class="img"> <img src="{% static 'img/images-removebg-preview.png' %}" alt=""></div>
+                <div class="named">
+                    <b class="nameofline">Name:</b>
+                    <b class="nameofline">S/D of:</b>
+                    <b class="nameofline">Branch:</b>
+                    <b class="nameofline">Valid Upto:</b>
+                    <b class="nameofline">DOB:</b>
+                    <b class="nameofline">Enrol No:</b>
+
+
+                </div>
+                <div class="field">
+                    <b class="nameofline">{{i.name}}</b>
+                    <b class="nameofline">{{i.father}}</b>
+                    <b class="nameofline">{{i.branch}}</b>
+                    <b class="nameofline">{{i.valid_up}}</b>
+                    <b class="nameofline">{{ i.DOB}}</b>
+                    <b class="nameofline">{{i.roll}}</b>
+                    <div class="signature">
+                        <img src="{% static 'img/Signature.png' %}" alt="">
+                    </div>
+
+
+                </div>
+
+                <div class="profile">
+                    <img src="{{i.img.url}}" alt="">
+                </div>
+                <div class="scaner">
+                    <img src="{% static 'img/Scaner.png' %}" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+        {% endfor %}
+        <summary class="add"> Khandwa Road Near Yoll Naka,Indore-452020(M.P)
+            Ph: +91-07324-405000,WWW.vivekanandgroup.com</summary>
+    </div>
+</body>
+
+</html>
